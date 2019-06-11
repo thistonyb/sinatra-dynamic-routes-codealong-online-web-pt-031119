@@ -23,5 +23,4 @@ class App < Sinatra::Base
   @multiply_numbers = params[:num1].to_i * params[:num2].to_i
   "#{@multiply_numbers}"
   end
-
 end
